@@ -1,0 +1,43 @@
+@font-face {
+    font-family: digital-7;
+    src: url(fonts/digital-7.ttf) format("truetype");
+}
+
+body {
+    background: none!important;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: auto;
+    /*padding: 30px;*/
+
+    background-color: rgba(123, 185, 229, 0.5);
+    text-align: center;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#container a {
+    margin: 30px;
+}
+
+#container a img {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(123, 185, 229, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#container a:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
